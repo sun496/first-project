@@ -61,3 +61,27 @@ footer {
   padding: 24px;
   color: #888;
 }
+
+.links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.links a {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid var(--main);
+  border-radius: 999px;
+  color: var(--main);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.links a:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
