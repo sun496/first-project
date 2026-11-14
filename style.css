@@ -12,7 +12,7 @@
 
 body {
   margin: 0;
-  font-family: 'Jua', sans-serif;
+  font-family: 'Gowun Dodum', sans-serif;   /* 'Jua' → 'Gowun Dodum' */
   background: var(--bg);
   color: var(--text);
 }
@@ -152,6 +152,7 @@ section {
 }
 
 h1, h2, h3 {
+  font-family: 'Jua', sans-serif;   /* 추가 */
   font-weight: normal;
 }
 
@@ -168,4 +169,9 @@ h1, h2, h3 {
 ::selection {
   background: var(--accent);
   color: #fff;
+}
+
+nav a,
+.links a {
+  font-family: 'Jua', sans-serif;
 }
