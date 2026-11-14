@@ -1,8 +1,10 @@
-:root {
+ :root {
   --bg: #fafafa;
   --text: #222;
   --main: #222;
   --accent: #ff6b4a;
+  --surface: #fff;
+  --muted: #888;
 }
 
 body {
@@ -43,7 +45,7 @@ h2 {
 }
 
 .card {
-  background: #fff;
+  background: var(--surface);
   border-radius: 12px;
   padding: 16px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
@@ -65,7 +67,7 @@ h2 {
 footer {
   text-align: center;
   padding: 24px;
-  color: #888;
+  color: var(--muted);
 }
 
 .links {
@@ -118,7 +120,7 @@ nav {
   display: flex;
   justify-content: center;
   gap: 8px;
-  background: #fff;
+  background: var(--surface);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
