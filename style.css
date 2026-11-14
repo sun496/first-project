@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #fafafa;
+  color: #222;
+}
+header {
+  padding: 80px 24px;
+  text-align: center;
+  background: #222;
+  color: #fff;
+}
+main {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 24px;
+}
