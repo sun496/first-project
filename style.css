@@ -91,3 +91,18 @@ footer {
   border-color: var(--accent);
   color: #fff;
 }
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.profile-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
