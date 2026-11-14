@@ -141,13 +141,31 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--accent);
+  background: #ffe3ea;
+  color: var(--main);
+  border-radius: 999px;
 }
 
 section {
   scroll-margin-top: 70px;
+  margin-bottom: 56px;
 }
 
 h1, h2, h3 {
   font-weight: normal;
+}
+
+.wave {
+  display: inline-block;
+  animation: bounce 1.6s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-8px); }
+}
+
+::selection {
+  background: var(--accent);
+  color: #fff;
 }
